@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: ApiGateway
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Saral_Kumar
+Implementation-Vendor-Id: com.apigateway
+Build-Jdk: 1.8.0_71
+Implementation-URL: https://spring.io/projects/spring-boot/ApiGateway
+Created-By: Maven Integration for Eclipse
+

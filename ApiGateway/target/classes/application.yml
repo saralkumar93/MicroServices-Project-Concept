@@ -1,0 +1,27 @@
+server:
+  port: 8083
+  
+spring:
+  application:
+    name: API_GATEWAY
+    
+eureka:
+  instance:
+    appname: API-GATEWAY
+
+  cloud:
+    gateway:
+      routes:
+      - id: CITIZEN-SERIVCE
+        uri:
+         ib://CITIZEN-SERVICE
+        predicates:
+        - path=/citizen/**
+        
+      - id: VACCINATIONCENTER-SERVICE
+        uri:
+         ib://VACCINATIONCENTER-SERVICE
+        predicates:
+        - path=/vaccinationcenter/**
+        
+        
