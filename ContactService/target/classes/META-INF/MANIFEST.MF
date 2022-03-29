@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: UserContact
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Saral_Kumar
+Implementation-Vendor-Id: com.contact
+Build-Jdk: 1.8.0_71
+Implementation-URL: https://spring.io/projects/spring-boot/UserContact
+Created-By: Maven Integration for Eclipse
+
