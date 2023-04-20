@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    name: m1
+    url: jdbc:mysql://localhost:3306/microservice
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  application:
+    name: RATING-SERVICE
+server:
+  port: 8083
+
+  jpa:
+    properties:
+      hibernate:
+         dialect: org.hibernate.dialect.MySQL55Dialect
+    hibernate:
+      ddl-auto: update   
+    generate-ddl: true     
+         
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka      
+         
+         
+    
